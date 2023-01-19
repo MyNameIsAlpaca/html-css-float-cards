@@ -32,8 +32,29 @@ main .description {
     margin-bottom: 40px;
 }
 
-.card {
+.info-box {
+    color: white;
     background-color: black;
     width: calc(33% - 20px);
     height: 100px;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.info-box img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.info {
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.email {
+    color: #4bafcf;
 }
